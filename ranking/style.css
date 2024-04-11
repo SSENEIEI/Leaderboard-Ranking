@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Kanit, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+body {
+    max-width: 80vh;
+    margin: auto;
+    background-color: lightslategrey;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(192, 57, 4); */
+}
+.header{
+    width: 100%;    
+    height: 8vh;
+    background-color: rgb(255, 115, 0);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 1em;
+    font-size: 3vh;
+    color: #ffffff;
+}
+.header p {
+    background-color: rgb(255, 128, 0);
+    padding: .3em;
+    border-radius: .4em
+
+}
+
+.ranking-tag{
+    width: 100%;
+    /* height: 20vh; */
+    background-color: rgb(135, 80, 25);
+    padding: 1em 1em;
+    color: #000;    
+}
+.grid-tag{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: right;
+    margin: 1em 0em;
+    /* grid-gap: 0% 0.5%; */ */
+    /* grid-auto-rows: 1fr;
+    /* padding: 0.1% 1%; */
+}
+.ctn-ranking-tag{
+    width: 100%;
+    height: 9em;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: center;
+    border-radius: 1em;
+    padding: .1em;
+}
+.circle{
+    background-image: url(pictures/WInner.jpg);
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    margin: auto;
+    border: .1em solid #ff4d00;
+    background-size: 100%;
+    
+}
+.list{
+    width: 100%;
+    height:64vh;
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://cdn.discordapp.com/attachments/1190963071590608956/1227138762421702688/background-.jpg?ex=66275108&is=6614dc08&hm=3bbea84ab8a8acfe5cde5efcef4bdf35bfd3f98decccde4c174aa6b8acdf1659&);
+    background-size: 100%;
+}
+.user-list-grid{
+    display: grid;
+    grid-auto-rows: 2emm;
+    /* how much height must each element occupy! change that! */
+    grid-gap: 0.4rem;
+    padding:0.5em 1em;
+    
+}
+.user-list{
+    width: 100%;
+    height:8vh;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    align-items: center;
+    text-align: center;
+    border-radius: 20em;
+    box-shadow: 1px -1px 5px 1px #adadad;
+}
+.number{
+    width: 32% ;
+    height: 4.5vh;
+    background-color: #ff4d00;
+    border-radius: 100em;
+    left: 3em;
+    position: relative;
+    color: #ffffff;
+    box-shadow: 1px -1px 15px 1px #ff4d00;
+}
+.number span {
+    top: .4em;
+    position: relative;
+}
+.user-score{
+    width: 100%;
+    height:7vh;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: center;
+    text-align: center;
+    padding: 0em 1em  ;
+}
